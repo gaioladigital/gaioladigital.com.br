@@ -33,7 +33,7 @@ $(window).on("load", function() {
         
         if(name == '' || email == '')
         {
-          $('#contact-form .response').html('<div class="failed">Please fill the required fields.</div>');
+          $('#contact-form .response').html('<div class="failed">Por favor, preencha os campos obrigatórios.</div>');
           return false;
         }
               
